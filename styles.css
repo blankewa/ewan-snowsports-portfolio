@@ -1,0 +1,44 @@
+/* CSS Stylesheet for Pages Folder */
+
+/* rules for titles */
+.title-container {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* rules for sub titles */
+.sub-title-container {
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+/* Rules for Text next to images */
+.text-right-image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+/* Rules for text next to left side of image */
+.text-left-image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+  flex-direction: row-reverse;
+}
+
+/* Rules for Compeititon Blocks in About Me page */
+.comp-block { 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.comp-title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0 0 10px 0;
+}
